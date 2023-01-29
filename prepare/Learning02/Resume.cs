@@ -15,7 +15,8 @@ public class Resume
         
         foreach (Job job in _jobs)
         {
-           
+            DateTime dt1 = new DateTime();
+            Console.WriteLine(dt1);
             job.Display();
         }
     }

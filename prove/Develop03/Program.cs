@@ -13,7 +13,7 @@ class Program
 
 
         string Number = Console.ReadLine();
-        magicNumber = randomGenerator.Next(1, 100);
+        magicNumber = randomGenerator.Next(1, 5);
 
         do
         {
